@@ -7,7 +7,7 @@ def is_in_ranges(id: int, ranges: list[tuple[int, int]]) -> bool:
 
 def main():
     text: str = ""
-    with open("input.txt", "r") as file:
+    with open("elsainput.txt", "r") as file:
         text = file.read()
 
     ranges_str, ids_str = text.split("\n\n")
